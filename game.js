@@ -39,7 +39,7 @@
 
     //Player Input
     function game() {
-      for (let i = 0; i <= 5; i++) {
+      for (let i = 0; i < 1; i++) {
         let playerSelection = prompt("Do you choose rock, paper or scissor?");
         while (
           !(
