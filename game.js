@@ -7,13 +7,13 @@
       console.log(randomComputer);
 
       switch (randomComputer) {
-        case 1:
+        case 0:
           return "rock";
           break;
-        case 2:
+        case 1:
           return "paper";
           break;
-        case 3:
+        case 2:
           return "scissor";
           break;
       }
@@ -39,7 +39,7 @@
 
     //Player Input
     function game() {
-      for (let i = 0; i < 1; i++) {
+      for (let i = 0; i < 5; i++) {
         let playerSelection = prompt("Do you choose rock, paper or scissor?");
         while (
           !(
